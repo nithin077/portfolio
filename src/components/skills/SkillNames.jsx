@@ -2,44 +2,50 @@ import React from 'react'
 import { TiHtml5 } from "react-icons/ti";
 import { IoLogoCss3,IoLogoJavascript,IoLogoAngular,IoLogoReact } from "react-icons/io5";
 import { SiTypescript, SiBootstrap, SiTailwindcss, SiJasmine } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
 
 const skills = [
     {
-        skill : 'HTML',
-        icon : <TiHtml5 />
-    },
-    {
-        skill : 'CSS',
-        icon : <IoLogoCss3 />
-    }, {
-        skill : 'JavaScript',
-        icon : <IoLogoJavascript />
-    },
-    {
-        skill : 'Angular',
-        icon : <IoLogoAngular />
-    },
-    {
-        skill : 'TypeScript',
-        icon : <SiTypescript />
-    },
-    {
-        skill : 'React',
-        icon : <IoLogoReact />
-    },
-    {
-        skill : 'Bootstrap',
-        icon : <SiBootstrap />
-    },
-    {
-        skill : 'TailwindCss',
-        icon : <SiTailwindcss />
-    },
-    {
-        skill : 'Jasmine',
-        icon : <SiJasmine />
-    },
-    
+       skill : 'JavaScript',
+       icon : <IoLogoJavascript />
+   },
+   {
+       skill : 'Angular',
+       icon : <IoLogoAngular />
+   },
+   {
+       skill : 'TypeScript',
+       icon : <SiTypescript />
+   },
+   {
+       skill : 'React',
+       icon : <IoLogoReact />
+   },
+   {
+       skill : 'HTML',
+       icon : <TiHtml5 />
+   },
+   {
+       skill : 'CSS',
+       icon : <IoLogoCss3 />
+   },
+   {
+       skill : 'Bootstrap',
+       icon : <SiBootstrap />
+   },
+   {
+       skill : 'TailwindCss',
+       icon : <SiTailwindcss />
+   },
+   {
+       skill : 'Jasmine',
+       icon : <SiJasmine />
+   },
+   {
+       skill : 'Git',
+       icon : <FaGitAlt />
+   },
+   
 ]
 
 const SkillNames = () => {

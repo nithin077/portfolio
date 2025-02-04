@@ -2,16 +2,10 @@ import React from 'react'
 import { TiHtml5 } from "react-icons/ti";
 import { IoLogoCss3,IoLogoJavascript,IoLogoAngular,IoLogoReact } from "react-icons/io5";
 import { SiTypescript, SiBootstrap, SiTailwindcss, SiJasmine } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
 
 const skills = [
-    {
-        skill : 'HTML',
-        icon : <TiHtml5 />
-    },
-    {
-        skill : 'CSS',
-        icon : <IoLogoCss3 />
-    }, {
+     {
         skill : 'JavaScript',
         icon : <IoLogoJavascript />
     },
@@ -28,6 +22,14 @@ const skills = [
         icon : <IoLogoReact />
     },
     {
+        skill : 'HTML',
+        icon : <TiHtml5 />
+    },
+    {
+        skill : 'CSS',
+        icon : <IoLogoCss3 />
+    },
+    {
         skill : 'Bootstrap',
         icon : <SiBootstrap />
     },
@@ -38,6 +40,10 @@ const skills = [
     {
         skill : 'Jasmine',
         icon : <SiJasmine />
+    },
+    {
+        skill : 'Git',
+        icon : <FaGitAlt />
     },
     
 ]
