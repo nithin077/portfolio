@@ -5,8 +5,10 @@ import AboutMain from "./components/about/AboutMain"
 import SkillMain from "./components/skills/SkillMain"
 import ExperienceMain from "./components/experience/ExperienceMain"
 import ProjectsMain from "./components/projects/ProjectsMain"
+import ContactMain from "./components/contact/ContactMain"
+import FooterMain from "./components/footer/FooterMain"
 
-function App() {
+const App = () => {
 
   return (
     <main className="font-body">
@@ -16,6 +18,8 @@ function App() {
       <SkillMain />
       <ExperienceMain />
       <ProjectsMain />
+      <ContactMain />
+      <FooterMain />
     </main>
   )
 }

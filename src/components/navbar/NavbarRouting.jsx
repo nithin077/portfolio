@@ -1,11 +1,13 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 
 
 const headerLinks = [
+    { link: "Home", Section: "body" },
     { link: "About Me", Section: "about" },
-    { link: "Skills", Section: "skills" },
     { link: "Experience", Section: "experience" },
+    { link: "Skills", Section: "skills" },
     { link: "Projects", Section: "projects" },
     { link: "Contact", Section: "contact" }
 ]
@@ -17,7 +19,10 @@ const NavbarRouting = () => {
                 {headerLinks.map((link, index) => {
                     return (
                         <li key={index} className='group'>
-                            <a href='#' className='cursor-pointer text-white hover:text-cyan transition-all duration-500'>{link.link}</a>
+                            <Link to={link.Section}
+                                smooth={true}
+                                duration={500}
+                                offset={-130} className='cursor-pointer text-white hover:text-cyan transition-all duration-500'>{link.link}</Link>
                             <div className="mx-auto bg-cyan w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
                         </li>
                     )
