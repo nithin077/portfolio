@@ -27,6 +27,9 @@ export default {
       grey: "#626965",
       lightGrey: "#978580",
       darkGrey: "#3f4441",
+      snow : "#FFFAFA",
+      whiteSmoke : "#F5F5F5",
+      silver : "#C0C0C0"
     },
     extend: {
       boxShadow: {

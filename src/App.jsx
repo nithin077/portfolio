@@ -15,8 +15,8 @@ const App = () => {
       <NavbarMain />
       <Body />
       <AboutMain />
-      <SkillMain />
       <ExperienceMain />
+      <SkillMain />
       <ProjectsMain />
       <ContactMain />
       <FooterMain />
