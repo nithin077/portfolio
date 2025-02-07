@@ -11,8 +11,8 @@ const FooterMain = () => {
                     <p className='text-center text-lg text-lightGrey mb-4 md:mb-0'>Made with ❤️ by Nithin Chilumula</p>
                 </div>
                 <div className='flex gap-4'>
-                    <SocialMedia link="#" Icon={FaGithub} />
-                    <SocialMedia link="#" Icon={FaLinkedin} />
+                    <SocialMedia link="https://github.com/nithin077"  Icon={FaGithub} target="_blank"/>
+                    <SocialMedia link="https://www.linkedin.com/in/nithin-chary-chilumula-6a5013168/" Icon={FaLinkedin} target="_blank"/>
                     <SocialMedia link="#" Icon={FaInstagram} />
                 </div>
             </div>
