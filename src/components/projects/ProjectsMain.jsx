@@ -1,6 +1,8 @@
 import React from 'react'
 import ProjectsDescription from './ProjectsDescription'
 import ProjectList from './projectList'
+import { motion } from "motion/react"
+import { fadeIn } from '../../framerMotion/varaints'
 
 const projects = [
     {
@@ -30,7 +32,14 @@ const projects = [
 const ProjectsMain = () => {
     return (
         <div id="projects" className='max-w-[1200px] mx-auto px-4'>
-            <ProjectsDescription />
+            <motion.div
+             variants={fadeIn("right", 0.2)}
+             initial="hidden"
+             whileInView="show"
+             viewport={{ once: false, amount: 0 }}
+            >
+                <ProjectsDescription />
+            </motion.div>
             <div className='flex flex-col gap-20 max-w-[900px] mx-auto mt-12'>
                 {projects.map((item,index) => {
                     return <ProjectList key={index} name={item.name} year={item.year} align = {item.align} image = {item.image} link = {item.link}/>

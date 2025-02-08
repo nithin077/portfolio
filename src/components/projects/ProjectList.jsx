@@ -1,9 +1,16 @@
 import React from 'react'
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import { motion } from "motion/react"
+import { fadeIn } from '../../framerMotion/varaints'
 
-const ProjectList = ({name,year,align,date,image,link}) => {
+const ProjectList = ({name,year,align,image,link}) => {
   return (
-    <div className={`flex w-full sm:flex-col-reverse items-center gap-8 ${align === 'left' ? 'md:flex-row' :'md:flex-row-reverse'}
+    <motion.div 
+    variants={fadeIn("up", 0.2)}
+    initial="hidden"
+    whileInView="show"
+    viewport={{ once: false, amount: 0 }}
+    className={`flex w-full sm:flex-col-reverse items-center gap-8 ${align === 'left' ? 'md:flex-row' :'md:flex-row-reverse'}
      justify-end`}>
         <div>
             <h2 className='md:text-3xl sm:text-2xl text-orange'>{name}</h2>
@@ -16,7 +23,7 @@ const ProjectList = ({name,year,align,date,image,link}) => {
             </div>
             <img src={image} alt="project Image" className='w-full h-full' />
         </div>
-    </div>
+    </motion.div>
   )
 }
 
