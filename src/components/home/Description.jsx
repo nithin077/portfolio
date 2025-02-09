@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { fadeIn } from "../../framerMotion/varaints";
 
 const handleResumeClick = () => {
-  window.open('assets/images/FrontendResume.pdf', '_blank');
+  window.open('assets/images/software-Engineer-Resume.pdf', '_blank');
 }
 
 const Description = () => {
