@@ -1,5 +1,5 @@
 import React from 'react'
-import SkillDescription from './skillDescription'
+import SkillDescription from "./SkillDescription"
 import SkillNames from './SkillNames'
 import SkillNameSMScreens from './SkillNameSMScreens'
 import { motion } from "motion/react"
