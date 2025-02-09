@@ -1,9 +1,10 @@
 import React from "react";
 import { motion } from "motion/react";
 import { fadeIn } from "../../framerMotion/varaints";
+import resume from "../../../public/assets/images/Software-Engineer-Resume.pdf"
 
 const handleResumeClick = () => {
-  window.open('assets/images/software-Engineer-Resume.pdf', '_blank');
+  window.open(resume, '_blank');
 }
 
 const Description = () => {
