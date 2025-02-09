@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectsDescription from './ProjectsDescription'
-import ProjectList from './projectList'
+import ProjectList from './ProjectList'
 import { motion } from "motion/react"
 import { fadeIn } from '../../framerMotion/varaints'
 
