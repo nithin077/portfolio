@@ -10,7 +10,7 @@ const projects = [
         name: "Food Court From Namaste React",
         year: "2024",
         align: "right",
-        image: "src/assets/images/website-img-1.jpg",
+        image: "assets/images/website-img-1.jpg",
         link: "https://food-court-neon.vercel.app/"
     },
     {
@@ -18,7 +18,7 @@ const projects = [
         name: "DigiBoard",
         year: "2024",
         align: "left",
-        image: "src/assets/images/website-img-2.webp",
+        image: "assets/images/website-img-2.webp",
         link: "/"
     },
     {
@@ -26,7 +26,7 @@ const projects = [
         name: "Razor Payment Test Integration",
         year: "2025",
         align: "right",
-        image: "src/assets/images/website-img-3.jpg",
+        image: "assets/images/website-img-3.jpg",
         link: "https://nithin077.github.io/sos-children/"
     },
 

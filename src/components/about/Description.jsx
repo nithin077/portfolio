@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 const Description = () => {
     return (
@@ -12,9 +13,11 @@ const Description = () => {
                 Looking forward to sharpening my skills in a challenging environment. 
                 I guarantee enthusiasm in work and fulfilling my projects with inexpressible effort.
             </p>
+            <Link to="projects">
             <button aria-label="Projects" className='border border-orange rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan'>
                 My Projects
             </button>
+            </Link>
         </div>
     )
 }
