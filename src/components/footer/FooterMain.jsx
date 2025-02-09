@@ -13,7 +13,7 @@ const FooterMain = () => {
                 <div className='flex gap-4'>
                     <SocialMedia link="https://github.com/nithin077"  Icon={FaGithub} target="_blank"/>
                     <SocialMedia link="https://www.linkedin.com/in/nithin-chary-chilumula-6a5013168/" Icon={FaLinkedin} target="_blank"/>
-                    <SocialMedia link="#" Icon={FaInstagram} />
+                    <SocialMedia link="https://www.instagram.com/_call_me_chinn" Icon={FaInstagram} />
                 </div>
             </div>
         </div>

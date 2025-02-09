@@ -6,25 +6,28 @@ import { fadeIn } from '../../framerMotion/varaints'
 
 const projects = [
     {
-        name: "Project1",
+        id : 1,
+        name: "Food Court From Namaste React",
         year: "2024",
         align: "right",
         image: "src/assets/images/website-img-1.jpg",
-        link: "#"
+        link: "https://food-court-neon.vercel.app/"
     },
     {
-        name: "Project2",
+        id : 2,
+        name: "DigiBoard",
         year: "2024",
         align: "left",
         image: "src/assets/images/website-img-2.webp",
-        link: "#"
+        link: "/"
     },
     {
-        name: "Project3",
+        id : 3,
+        name: "Razor Payment Test Integration",
         year: "2025",
         align: "right",
         image: "src/assets/images/website-img-3.jpg",
-        link: "#"
+        link: "https://nithin077.github.io/sos-children/"
     },
 
 ]
@@ -42,7 +45,7 @@ const ProjectsMain = () => {
             </motion.div>
             <div className='flex flex-col gap-20 max-w-[900px] mx-auto mt-12'>
                 {projects.map((item,index) => {
-                    return <ProjectList key={index} name={item.name} year={item.year} align = {item.align} image = {item.image} link = {item.link}/>
+                    return <ProjectList key={index} id={item.id} name={item.name} year={item.year} align = {item.align} image = {item.image} link = {item.link}/>
                 })}
             </div>
         </div>

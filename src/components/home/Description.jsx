@@ -34,7 +34,7 @@ const Description = () => {
         viewport={{ once: false, amount: 0 }}
         className="lg:text-6xl sm:text-5xl text-silver"
       >
-        Front-End Developer, <br />
+        Software Developer, <br />
         Building the web, better.
       </motion.h2>
       <motion.p
